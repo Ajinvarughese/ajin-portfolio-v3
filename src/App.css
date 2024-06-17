@@ -436,8 +436,8 @@ body {
 
 .card .titleSkills {
   color: var(--text);
-  font-weight: bold;
-  font-size: clamp(14px, 3vw, 21px);
+  font-weight: 500;
+  font-size: clamp(16px, 3vw, 21px);
   margin: 12px 0 6px 0;
 }
 
@@ -447,7 +447,6 @@ body {
   display: block;
   pointer-events: none;
 }
-
 
 
 .projectsMain {

@@ -1,5 +1,8 @@
 {
+  "homepage": "https://ajinvarughese.github.io",
   "name": "ajinvarughese.github.io",
+  "description": "Personal Portfolio",
+  "author": "Ajin Varughese",
   "private": true,
   "version": "0.0.0",
   "type": "module",
