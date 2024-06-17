@@ -21,11 +21,11 @@ To run this project locally, follow these steps:
 
 **1. Clone the repository:**
 ```sh
-    git clone https://github.com/your-username/portfolio.git
+    git clone https://github.com/Ajinvarughese/ajinvarughese.github.io.git
 ```
 **2. Navigate to the project directory:**
 ```sh
-    cd portfolio
+    cd ajinvarughese.github.io
 ```
 **3. Install dependencies:**
 ```sh
@@ -37,22 +37,23 @@ To run this project locally, follow these steps:
 To start the development server, run:
 
 ```sh
-    npm start
+    npm run dev
 ```
 This will launch the website on the specified url shown in your teriminal. You can then make changes to the source code and see them reflected in real-time.
 
 ## 📁 Project Structure ##
 ```plaintext
-    portfolio/
+    ajinvarughese.github.io/
     ├── public/
     │   ├── index.html
     │   └── ...
     ├── src/
     │   ├── components/
-    │   │   ├── About.js
-    │   │   ├── Contact.js
-    │   │   ├── Home.js
-    │   │   └── Projects.js
+    │   │   ├── About.jsx
+    │   │   ├── Contact.jsx
+    │   │   ├── Home.jsx
+    │   │   └── Projects.jsx
+    │   │   └── Skills.jsx
     │   ├── App.js
     │   ├── index.js
     │   └── ...
@@ -76,7 +77,7 @@ Contributions are welcome! If you have any ideas, suggestions, or improvements, 
 - Open a pull request
 
 ## 📜 License ##
-This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ajinvarughese/new-portfolio/blob/main/LICENSE) file for more details.
+This project is licensed under the MIT License. See the [LICENSE](https://github.com/Ajinvarughese/ajinvarughese.github.io/blob/main/LICENSE) file for more details.
 
 ## 📬 Contact ##
 Feel free to reach out if you have any questions or suggestions!
