@@ -1,0 +1,89 @@
+
+
+#handboy
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 98% 98%;
+    transform-box: fill-box;
+    
+}
+
+
+#girllight
+{
+   animation: swing ease-in-out 1.3s infinite alternate;
+    transform-origin: 0% 97%;
+    transform-box: fill-box;
+}
+
+#hairgirl
+{
+    animation: swinghair ease-in-out 1.3s infinite alternate;
+   transform-origin: 60% 0%;
+    transform-box: fill-box;
+  
+}
+
+#zero
+{
+  transform-origin:bottom;
+  transform-box:fill-box;
+  
+}
+
+/*************swing************/
+@keyframes swing {
+    0% { transform: rotate(10deg); }
+    100% { transform: rotate(-10deg); }
+}
+
+
+/*************swing hair************/
+@keyframes swinghair {
+    0% { transform: rotate(6deg); }
+    100% { transform: rotate(-6deg); }
+}
+
+.container {
+    width: 90%;
+    max-width: 760px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.ama {
+    text-align: center;
+    color: var(--text);
+    margin-top: 2rem;
+}
+.ama h1 {
+    font-size: clamp(34px, 3vw, 55px);
+    color: var(--text);
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+.ama p{
+    margin-top: 8px;
+    color: var(--text2);   
+}
+.ama button {
+    background: var(--j404BG);
+    outline: none;
+    border: none;
+    margin-top: 14px;
+    padding: 5px 22px;
+    color: var(--button);
+    font-weight: 500;
+    border-radius: 3px;
+    border: 1px solid var(--accent);
+    transition: 0.2s ease-in;
+    cursor: pointer;
+}
+.ama button:hover {
+    background: var(--accent);
+}
+@media (max-width: 760px) {
+    .container {
+        width: 98%;
+        margin-top: 7rem;
+    }
+}

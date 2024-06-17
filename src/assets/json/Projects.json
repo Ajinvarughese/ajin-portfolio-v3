@@ -1,0 +1,20 @@
+[
+    {
+        "key": 0,
+        "name": "SpringBoot",
+        "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/webApp.png",
+        "desc": "Developed robust backend services using Java Spring Boot, focusing on creating scalable and maintainable code. My projects include building RESTful APIs, integrating with various databases, and ensuring high performance and security."
+    },
+    {
+        "key": 1,
+        "name": "Web Designing",
+        "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/web_developing.png",
+        "desc": "Designed and developed responsive websites using modern technologies like HTML, CSS, JavaScript, and ReactJS. My design approach prioritizes user experience, accessibility, and visual appeal, resulting in engaging and user-friendly web applications."
+    },
+    {
+        "key": 2,
+        "name": "PHP Websites",
+        "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/phpImg.png",
+        "desc": "Created dynamic and interactive websites using PHP and MySQL. These projects range from e-commerce platforms to content management systems, showcasing my ability to handle both front-end and back-end development effectively."
+    }
+]

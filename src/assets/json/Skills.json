@@ -1,0 +1,47 @@
+{
+    "exp": {
+        "languages": "10",
+        "projects": "6",
+        "coding": {
+            "type": "Months",
+            "num": "50"
+        }
+    },
+    "skills": [
+        {
+            "name": "SpringBoot",
+            "animation": false,
+            "url": "https://spring.io/",
+            "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/springBoot.png",
+            "desc": "I have extensive experience with Spring Boot, building scalable and maintainable backend services. My expertise includes developing RESTful APIs, integrating with various databases, and ensuring high performance and security in applications."
+        },
+        {
+            "name": "Frontend",
+            "animation": true,
+            "url": "https://react.dev/",
+            "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/react.png",
+            "desc": "I specialize in ReactJS to create dynamic and responsive user interfaces. My projects emphasize user experience, accessibility, and performance, delivering visually appealing and intuitive web applications."
+        },
+        {
+            "name": "Android",
+            "animation": false,
+            "url": "https://developer.android.com/",
+            "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/android.png",
+            "desc": "I have a strong background in Android development, creating native applications that are both user-friendly and feature-rich. My skills include designing interfaces, managing databases, and integrating APIs to enhance functionality."
+        },
+        {
+            "name": "PHP",
+            "animation": false,
+            "url": "https://www.php.net/",
+            "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/php.png",
+            "desc": "With PHP, I develop dynamic and interactive websites, ranging from e-commerce platforms to content management systems. My proficiency in PHP ensures robust backend functionality and seamless user experiences."
+        },
+        {
+            "name": "Database",
+            "animation": false,
+            "url": "https://www.mysql.com/",
+            "img": "https://raw.githubusercontent.com/Ajinvarughese/new-portfolio/main/src/assets/images/database.png",
+            "desc": "I am well-versed in database management, particularly with MySQL and PostgreSQL. My expertise includes designing efficient database schemas, optimizing queries, and ensuring data integrity and security in all my projects."
+        }
+    ]
+}
