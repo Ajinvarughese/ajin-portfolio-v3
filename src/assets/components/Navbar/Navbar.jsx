@@ -57,7 +57,7 @@ function Navbar(props) {
         const parts = value.split(`; ${name}=`);
         if (parts.length === 2) return parts.pop().split(';').shift();
     };
-    const [currentTheme, setCurrentTheme] = useState(getCookie('theme') == 'dark'? true : false);
+    const [currentTheme, setCurrentTheme] = useState(true);
     useEffect(() => {
         setCurrentTheme(getCookie('theme') == 'dark'? true : false);
     }, [])
