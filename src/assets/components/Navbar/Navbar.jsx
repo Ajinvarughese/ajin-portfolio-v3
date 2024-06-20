@@ -62,12 +62,10 @@ function Navbar(props) {
     
     const mode = () => {
         if(currentTheme) {
-            console.log("Worked1");
             document.documentElement.classList.toggle('light-mode');
             document.cookie = `theme=light;path=/;`;
             setCurrentTheme(false);
         }else {
-            console.log("Worked2");
             document.documentElement.classList.remove('light-mode');
             document.cookie = `theme=dark;path=/;`;
             setCurrentTheme(true);
