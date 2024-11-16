@@ -61,7 +61,7 @@ function App() {
 
   return (
     <>
-      <HashRouter>
+      <BrowserRouter basename='ajinvarughese.github.io'>
         <Routes>
           <Route 
             path='*'
@@ -126,7 +126,7 @@ function App() {
             }
           />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   )
 }
