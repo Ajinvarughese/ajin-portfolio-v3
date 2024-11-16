@@ -61,7 +61,7 @@ function App() {
 
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename='/'>
         <Routes>
           <Route 
             path='*'
