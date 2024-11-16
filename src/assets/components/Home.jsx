@@ -56,15 +56,6 @@ function Home(props) {
         };
     }, []);
 
-    const { GoogleGenerativeAI } = require("@google/generative-ai");
-    const genAI = new GoogleGenerativeAI("AIzaSyDfzQT33xb1Z0nzvFKJ2ZNyPU6cYoFRIhU");
-
-    const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash"});
-
-    const generateText = async () => {
-        const text = await model.generateText({ prompt: "Write a short story about a person who is a programmer." });
-        return text;
-    }
 
     return (
         <>
@@ -78,7 +69,6 @@ function Home(props) {
                                 <i><h1>{data.title}</h1></i>
                                 <i>
                                     <p>{data.desc}</p>
-                                    <p>{generateText}</p>
                                 </i>
                                 <button>Scroll Down</button>
                             </div>
